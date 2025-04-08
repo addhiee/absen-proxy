@@ -11,7 +11,7 @@ export default async function handler(req, res) {
     return res.status(405).send('Method Not Allowed');
   }
 
-  const response = await fetch("https://script.google.com/macros/s/AKfycbybNYX-GPkOJ5lUB0N2PeUVRpVsca4RDpsdh0T8QlxAQH9YxTAi3-I5D_RE674idCA/exec", {
+  const response = await fetch("https://script.google.com/macros/s/AKfycbxtBfvnusK1O1cLYiqFj2GNiSkYcr74t5lhvMgp5XYmomHv0ow3hpifKEdvGU0YVkc/exec", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
